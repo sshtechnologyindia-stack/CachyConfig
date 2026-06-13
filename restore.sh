@@ -43,7 +43,7 @@ ask() {
 # -----------------------------------------------------------------------------
 # Config
 # -----------------------------------------------------------------------------
-DATA_DRIVE="/LinuxData"
+DATA_DRIVE="/yourdrivename"
 SNAPSHOT_BASE="$DATA_DRIVE/system-snapshots"
 CURRENT_USER="${USER:-$(whoami)}"
 HOME_DIR="/home/$CURRENT_USER"
