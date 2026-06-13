@@ -319,7 +319,7 @@ sudo leafpad /etc/fstab
 Add a line at the end (replace the UUID with yours):
 
 ```
-UUID=e927ca5f-b91f-428a-8d64-2ec47f90449a /LinuxData    btrfs    defaults,noatime,noautodefrag 0 0
+UUID=  /yourdrivename    btrfs    defaults,noatime,noautodefrag 0 0
 ```
 
 > **Options explained:** `noatime` skips writing access timestamps (better performance), `noautodefrag` disables auto-defrag (recommended for SSDs and copy-on-write filesystems like Btrfs).
