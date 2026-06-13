@@ -28,7 +28,7 @@ header()  { echo -e "\n${BOLD}${BLUE}═══ $* ═══${RESET}\n"; }
 # -----------------------------------------------------------------------------
 # Config
 # -----------------------------------------------------------------------------
-DATA_DRIVE="/LinuxData"
+DATA_DRIVE="/yourdrivename"
 SNAPSHOT_BASE="$DATA_DRIVE/system-snapshots"
 DATE=$(date +%Y-%m-%d)
 SNAPSHOT_DIR="$SNAPSHOT_BASE/$DATE"
