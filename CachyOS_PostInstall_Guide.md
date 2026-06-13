@@ -205,8 +205,8 @@ sudo leafpad /etc/apparmor/parser.conf
 paru -S --needed --noconfirm virtualbox-host-dkms virtualbox virtualbox-guest-iso \
   virtualbox-sdk virtualbox-ext-vnc virtualbox-ext-oracle
 
-# Add your user to the vboxusers group (replace 'subodhkapoor' with your username)
-sudo gpasswd -a subodhkapoor vboxusers
+# Add your user to the vboxusers group
+sudo gpasswd -a yourusername vboxusers
 
 # Load the VirtualBox kernel module
 sudo modprobe vboxdrv
@@ -328,10 +328,10 @@ UUID=e927ca5f-b91f-428a-8d64-2ec47f90449a /LinuxData    btrfs    defaults,noatim
 
 ## 9. User Group Permissions
 
-Add your user to all the essential system groups (replace `subodhkapoor` with your username):
+Add your user to all the essential system groups 
 
 ```bash
-sudo usermod -G audio,video,storage,network,optical,power,sys,rfkill,wheel,users,realtime subodhkapoor
+sudo usermod -G audio,video,storage,network,optical,power,sys,rfkill,wheel,users,realtime yourusername
 ```
 
 **What these groups do:**
@@ -859,5 +859,3 @@ Calibration settings for optimal color accuracy on a Samsung monitor:
 - Auto Power Off: 8 hrs
 
 ---
-
-*Guide generated from personal command history. Replace `subodhkapoor` with your actual username wherever it appears.*
