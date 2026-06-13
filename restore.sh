@@ -64,7 +64,7 @@ if ! mountpoint -q "$DATA_DRIVE"; then
     error "$DATA_DRIVE is not mounted."
     error "Mount your data drive first, then rerun this script."
     error "  sudo mount -a    (if fstab is already configured)"
-    error "  or manually:     sudo mount /dev/sdXN /LinuxData"
+    error "  or manually:     sudo mount /dev/sdXN /yourdrivename"
     exit 1
 fi
 
